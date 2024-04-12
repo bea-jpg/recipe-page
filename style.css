@@ -1,0 +1,150 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberrry: hsl(332, 51%, 32%);
+
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+
+    --weight-light: 400;
+    --weight-medium: 600;
+    --weight-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Outfit", sans-serif;
+
+    color: var(--wenge-brown);
+
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    padding: 30px;
+}
+
+/* title and intro */
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 38px;
+    font-weight: var(--weight-bold);
+    margin-bottom: 20px;
+    line-height: 1.1;
+    color: var(--dark-charcoal)
+}
+
+
+/* preparation time and ingredients*/
+
+.time {
+    background-color: var(--rose-white);
+
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.time h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: var(--weight-medium);
+
+    color: var(--dark-raspberrry);
+    font-size: 25px;
+}
+
+h3 {
+    display: inline;
+}
+
+h2 {
+    color: var(--nutmeg);
+    font-family: "Young Serif", serif;
+    font-size: 30px;
+    font-weight: var(--weight-medium);
+    padding: 15px 0;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+li {
+    padding: 15px;
+}
+
+hr {
+    margin: 10px;
+}
+
+/* instructions */
+
+ol {
+    padding: 10px 30px;
+}
+
+/* nutrition */
+
+table {
+    width: 100%;
+    max-width: 640px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 13px 30px;
+}
+
+.border {
+    border-bottom: solid var(--dark-charcoal) 1px;
+}
+
+.values {
+    color: var(--nutmeg);
+    font-weight: var(--weight-bold);
+}
+
+/* attribution */
+
+.attribution {
+    margin: 30px 15px 10px;
+    text-align: center;
+}
+
+
+/* desktop */
+
+@media only screen and (min-width: 900px){
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: var(--eggshell);
+    }
+
+    .container{
+        width: 800px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 30px;
+    }
+
+    img {
+        box-sizing: border-box;
+        width: 96%;
+        margin: 15px;
+        border-radius: 20px;
+    }
+}
