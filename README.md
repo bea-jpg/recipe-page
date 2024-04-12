@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/bea-jpg/recipe-page](https://github.com/bea-jpg/recipe-page/)
+- Live Site URL: [https://bea-jpg.github.io/recipe-page](https://bea-jpg.github.io/recipe-page/)
 
 ## My process
 
@@ -35,5 +35,5 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Website - [Add your name here](https://github.com/bea-jpg)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/bea-jpg)
+- Website - [Bea](https://github.com/bea-jpg)
+- Frontend Mentor - [@bea-jpg](https://www.frontendmentor.io/profile/bea-jpg)
